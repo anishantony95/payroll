@@ -13,12 +13,12 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.payroll.sampl.exception.PaySlipNotFoundException;
 import com.payroll.sample.Entity.PaySlip;
 import com.payroll.sample.Entity.User;
 import com.payroll.sample.Service.AdminService;
 import com.payroll.sample.Service.PaySlipServices;
 import com.payroll.sample.Service.UserService;
+import com.payroll.sample.exception.PaySlipNotFoundException;
 
 @RestController
 public class Controller {

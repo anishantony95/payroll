@@ -8,10 +8,10 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.payroll.sampl.exception.PaySlipNotFoundException;
 import com.payroll.sample.Entity.PaySlip;
 import com.payroll.sample.Entity.User;
 import com.payroll.sample.Repo.PaySlipRepository;
+import com.payroll.sample.exception.PaySlipNotFoundException;
 
 import jakarta.transaction.Transactional;
 
